@@ -346,3 +346,128 @@ p {
   padding-top: 10px;
 }
 /* =====our css ends here==== */
+/* =====golobal css starts here==== */
+#golobal {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.golobal_header .golobal_prea {
+  font-family: var(--font-family);
+  color: #666;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  width: 622px;
+  margin: 0 auto;
+}
+.golobal_content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  align-items: center;
+}
+.golobal_left {
+  display: inline-block;
+  align-items: center;
+}
+.golobal_left h3 {
+  width: 380px;
+  color: #12141d;
+  font-family: var(--font-family);
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 52px;
+  margin-bottom: 22px;
+}
+.golobal_left p {
+  font-family: var(--font-family);
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 445px;
+  margin-bottom: 29px;
+}
+.golobal_span {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 20px;
+}
+.golobal_span span svg {
+  width: 20px;
+  height: 15px;
+  color: rgb(84, 56, 56);
+}
+.golobal_span span {
+  color: var(--Black, #12141d);
+  font-family: var(--Black);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.golobal_span span svg {
+  margin-right: 9px;
+}
+.golobal_right {
+  width: 498px;
+  height: 692px;
+}
+.golobal_right_header {
+  width: 376px;
+  color: #12141d;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 22px;
+}
+.golobal_right .golobal_right_item {
+  padding: 36px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+}
+.golobal_right_item label {
+  color: #12141d;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.golobal_right_item input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #dde1e0;
+  background: #fff;
+  margin-bottom: 17px;
+}
+.golobal_right_item button {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 100%;
+  border-radius: 10px;
+  background: #289bde;
+  height: 60px;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+}
+.golobal_right_item button svg {
+  margin-left: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+/* =====golobal css ends here==== */
